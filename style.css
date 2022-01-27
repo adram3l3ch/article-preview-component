@@ -19,7 +19,7 @@ body {
 
 main {
     display: flex;
-    max-width: 850px;
+    max-width: 750px;
     width: 90%;
     background-color: white;
     position: relative;
@@ -28,7 +28,7 @@ main {
 }
 
 .left {
-    width: 330px;
+    width: 300px;
     flex-shrink: 0;
 }
 
@@ -52,12 +52,13 @@ main {
 
 .title {
     line-height: 1.4em;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .desc {
-    line-height: 1.5em;
+    line-height: 1.6em;
     color: hsl(214, 17%, 51%);
+    font-size: 0.85rem;
 }
 
 footer {
@@ -98,7 +99,7 @@ footer {
 
 .user-data > p {
     margin-bottom: 0.1em;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
 }
 
 .name {
@@ -126,7 +127,7 @@ footer {
     width: 2rem;
     aspect-ratio: 1;
     border-radius: 50%;
-    background-color: hsl(214, 17%, 51%);
+    background-color: hsl(210, 46%, 95%);
     display: flex;
     align-items: center;
     justify-content: center;
